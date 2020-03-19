@@ -1,12 +1,15 @@
 #Exercise 21 Area of a Triangle
 
-
-base = float(input('Intruzca la Base: '))
+#Capturando valores teclado
+base = float(input('Introduzca la Base: '))
 altura = float(input('Introduzca la Altura: '))
 
+#aplicando formula
 area = ( base * altura ) / 2
 
-print('\n Calculando el area de un triangulo...')
-print('= ' + str(area))
+#Imprimiendo resultados
+print('\nCalculando el area de un triangulo...')
+print('= ' + str(round(area,4)))
+
 
 
