@@ -14,7 +14,7 @@ try:
     if number_sides >= 3 and number_sides <= 10:
         print('Es un ' + shapes[number_sides])
     else:
-        print('Debe escribir un numero entre 3 y 10')
+        print('Debe escribir un numero entre 3 y 10.')
 
 except ValueError:
     print('Error, debe escribir un numero...')
