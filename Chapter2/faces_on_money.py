@@ -24,5 +24,6 @@ try:
     else:
         print('Esa numeracion no tiene billete.')
 
+
 except ValueError:
     print('Error, debe introducir valores numericos.')
