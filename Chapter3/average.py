@@ -5,18 +5,15 @@ value = float(input('Introduzca el valor(Presione 0 para salir): '))
 if value == 0:
     print('Error, el primer valor no puede ser 0.')
 else:
-    lista = []
-    lista.append(value)
+    suma = value
+    contador = 1
     while True:
         value = float(input('Introduzca el valor(Presione 0 para salir): '))
         if value == 0:
             break
         else:
-            lista.append(value)
+            suma += value
+            contador += 1
 
-    suma = 0
-    for i in lista:
-        suma += i
-
-    promedio = suma / (len(lista))
+    promedio = suma / contador
     print('El promedio es: ' + str(promedio))
