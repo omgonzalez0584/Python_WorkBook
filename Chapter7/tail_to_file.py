@@ -3,7 +3,7 @@ import sys
 import os
 
 def tail(lines,line_amount):
-    for line in range((len(lines) -line_amount),len(lines)):
+    for line in range((len(lines) - line_amount),len(lines)):
         print(lines[line])
 
 filename = sys.argv[1]
