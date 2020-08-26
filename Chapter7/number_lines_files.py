@@ -17,7 +17,8 @@ if os.path.exists(filename):
 else:
     print("El archivo no existe")
 
-with open('number_ipsum.txt','w') as file_w:
+file_with_lines = 'ln_'+filename
+with open(file_with_lines,'w') as file_w:
     for line in new_content:
         file_w.write(line)
 
